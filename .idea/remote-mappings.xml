@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://root@219.216.99.6:28203/usr/bin/python3" />
+        <remote-mappings server-id="python@sftp://neu307@100.105.150.6:22/home/neu307/miniconda3/envs/DynaBOA-env/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/neu307/liumeilin/DynaBOA-VIBE" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://neu307@172.28.125.43:22/home/neu307/miniconda3/envs/DynaBOA-env/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/neu307/liumeilin/DynaBOA-VIBE" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

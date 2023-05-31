@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@219.216.99.8:12333" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="neu307@100.105.150.6:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/neu307/liumeilin/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="neu307@100.105.150.6:22 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/neu307/liumeilin/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="neu307@100.105.150.6:22 (8)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/neu307/liumeilin/DynaBOA-VIBE" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="neu307@172.28.125.43:22 (15)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/neu307/liumeilin/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="neu307@172.28.125.43:22 (19)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/neu307/liumeilin/DynaBOA-VIBE" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="neu307@172.28.125.43:22 (7)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/neu307/lml/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="neu307@172.28.125.43:22 (8)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/neu307/lml/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@219.216.99.6:19058">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/data/liumeilin/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@219.216.99.6:28203">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/data/liumeilin/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@219.216.99.6:28203 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/data/liumeilin/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@219.216.99.6:33687">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/data/liumeilin/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@219.216.99.6:34369">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/data/liumeilin/DynaBOA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@219.216.99.8:12333">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/data1/DynaBOA-VIBE" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
