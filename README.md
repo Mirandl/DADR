@@ -5,11 +5,11 @@ Code repository for the paper:
 **Cross-Domain Multi-Level Refinements for 3D Human Reconstruction in Wild Videos**
 
 ## Description
-We focus on reconstructing human mesh from out-of-domain videos. In our experiments, we train a source model on Human 3.6M. To produce accurate human mesh on out-of-domain frames, we optimize the BaseModel on target frames via MRR at time. Below are the comparison results between BaseModel and the adapted model on the videos with various camera parameters, motion, etc.
+We focus on reconstructing human mesh from out-of-domain videos. In our experiments, we train a source model on Human 3.6M. To produce accurate human mesh on out-of-domain frames, we optimize the BaseModel on target frames via MiRRo at time. Below are the comparison results between BaseModel and the adapted model on the videos with various camera parameters, motion, etc.
 
 ## Get Started
 
-CEMR has been implemented and tested on Ubuntu 18.04 with python = 3.6.
+MiRRo has been implemented and tested on Ubuntu 18.04 with python = 3.6.
 
 Install required packages:
 
@@ -65,4 +65,4 @@ bash run_on_3dpw.sh
 
 
 ## Acknowledgement
-We borrow some code from [VIBE](https://github.com/mkocabas/VIBE) and [DynaBOA](https://github.com/syguan96/DynaBOA). [videomae]() is used to capture pre-trained representations. [Learn2learn](https://github.com/learnables/learn2learn) is also used to implement multi-level optimization.
+We borrow some code from [VIBE](https://github.com/mkocabas/VIBE) and [DynaBOA](https://github.com/syguan96/DynaBOA). [VideoMAE](https://github.com/MCG-NJU/VideoMAE) is used to capture pre-trained representations. [Learn2learn](https://github.com/learnables/learn2learn) is also used to implement multi-level optimization.
