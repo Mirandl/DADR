@@ -1,11 +1,11 @@
-# CEMR
+# MiRRo
 
 Code repository for the paper:
 
-**Cross-Domain Multi-Level Refinements for 3D Human Reconstruction in Videos**
+**Cross-Domain Multi-Level Refinements for 3D Human Reconstruction in Wild Videos**
 
 ## Description
-We focus on reconstructing human mesh from out-of-domain videos. In our experiments, we train a source model on Human 3.6M. To produce accurate human mesh on out-of-domain frames, we optimize the BaseModel on target frames via CEMR at test time. Below are the comparison results between BaseModel and the adapted model on the videos with various camera parameters, motion, etc.
+We focus on reconstructing human mesh from out-of-domain videos. In our experiments, we train a source model on Human 3.6M. To produce accurate human mesh on out-of-domain frames, we optimize the BaseModel on target frames via MRR at time. Below are the comparison results between BaseModel and the adapted model on the videos with various camera parameters, motion, etc.
 
 ## Get Started
 
@@ -14,8 +14,8 @@ CEMR has been implemented and tested on Ubuntu 18.04 with python = 3.6.
 Install required packages:
 
 ```bash
-conda create -n cemr-env python=3.6
-conda activate cemr-env
+conda create -n mirro-env python=3.6
+conda activate mirro-env
 conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch-lts -c nvidia
 pip install -r requirements.txt
 install spacepy following https://spacepy.github.io/install_linux.html
@@ -44,7 +44,7 @@ Download Human3.6M using this [tool](https://github.com/kotaro-inoue/human3.6m_d
 ```
 python process_data.py --dataset h36m
 ```
-We train h36m on [VIBE](https://github.com/mkocabas/VIBE) and [HMR](https://github.com/akanazawa/hmr) and put the checkpoint message into our CEMR model.
+We train h36m on [VIBE](https://github.com/mkocabas/VIBE) and [HMR](https://github.com/akanazawa/hmr) and put the checkpoint message into our MiRRo model.
 
 ---
 ## Running on the 3DPW
@@ -65,4 +65,4 @@ bash run_on_3dpw.sh
 
 
 ## Acknowledgement
-We borrow some code from [VIBE](https://github.com/mkocabas/VIBE) and [DynaBOA](https://github.com/syguan96/DynaBOA). [Learn2learn](https://github.com/learnables/learn2learn) is used to implement multi-level optimization.
+We borrow some code from [VIBE](https://github.com/mkocabas/VIBE) and [DynaBOA](https://github.com/syguan96/DynaBOA). [videomae]() is used to capture pre-trained representations. [Learn2learn](https://github.com/learnables/learn2learn) is also used to implement multi-level optimization.
