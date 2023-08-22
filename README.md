@@ -1,4 +1,4 @@
-# MiRRo
+# CEMR
 
 Code repository for the paper:
 
