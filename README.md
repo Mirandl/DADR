@@ -1,15 +1,15 @@
-# CEMR
+# DADR
 
 Code repository for the paper:
 
-**Cross-Domain Multi-Level Refinements for 3D Human Reconstruction in Wild Videos**
+**Domain Adaptive Dual Prior for 3D Human Reconstruction on Wild Video**
 
 ## Description
-We focus on reconstructing human mesh from out-of-domain videos. In our experiments, we train a source model on Human 3.6M. To produce accurate human mesh on out-of-domain frames, we optimize the BaseModel on target frames via MiRRo at time. Below are the comparison results between BaseModel and the adapted model on the videos with various camera parameters, motion, etc.
+We focus on reconstructing human mesh from out-of-domain videos. In our experiments, we train a source model on Human 3.6M. To produce accurate human mesh on out-of-domain frames, we optimize the BaseModel on target frames via DADR at time. Below are the comparison results between BaseModel and the adapted model on the videos with various camera parameters, motion, etc.
 
 ## Get Started
 
-MiRRo has been implemented and tested on Ubuntu 18.04 with python = 3.6.
+DADR has been implemented and tested on Ubuntu 18.04 with python = 3.6.
 
 Install required packages:
 
@@ -44,7 +44,7 @@ Download Human3.6M using this [tool](https://github.com/kotaro-inoue/human3.6m_d
 ```
 python process_data.py --dataset h36m
 ```
-We train h36m on [VIBE](https://github.com/mkocabas/VIBE) and [HMR](https://github.com/akanazawa/hmr) and put the checkpoint message into our MiRRo model.
+We train h36m on [VIBE](https://github.com/mkocabas/VIBE) and [HMR](https://github.com/akanazawa/hmr) and put the checkpoint message into our DADR model.
 
 ---
 ## Running on the 3DPW
@@ -61,7 +61,7 @@ bash run_on_3dpw.sh
 | [SPIN](https://github.com/nkolot/SPIN)                       |   #PS    |   59.2   |   96.9   |  135.1   |
 | [PARE](https://github.com/mkocabas/PARE)                     |   #PS    |   46.4   |   79.1   |   94.2   |
 | [Mesh Graphormer](https://github.com/microsoft/MeshGraphormer) |   #PS    |   45.6   |   74.7   |   87.7   |
-| CEMR (Ours)                                               |   #PS    | **34.6** | **52.1** | **67.9** |
+| DADR (Ours)                                               |   #PS    | **34.6** | **52.1** | **67.9** |
 
 
 ## Acknowledgement
