@@ -14,8 +14,8 @@ DADR has been implemented and tested on Ubuntu 18.04 with python = 3.6.
 Install required packages:
 
 ```bash
-conda create -n mirro-env python=3.6
-conda activate mirro-env
+conda create -n dadr-env python=3.6
+conda activate dadr-env
 conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch-lts -c nvidia
 pip install -r requirements.txt
 install spacepy following https://spacepy.github.io/install_linux.html
